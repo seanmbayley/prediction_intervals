@@ -29,10 +29,10 @@ pip3 install -r requirements.txt
 
 Pip will begin installing all necessary requirements. Once completed, you will be ready to run meta_tune. Learning an RF can be computationally expensive, especially when the dataset is sufficiently large. In order to facilitate configurable interval analysis, we split the tool into two modules: simulate and intervals.  
 
-### Example on Apache-Ant
+## Example on Apache-Ant
 We have included a sample data directory in the repository (meta_tune/data). This directory includes data for 5 releases of the Apache-Ant open-source project. More information about the data can be found [here]{http://openscience.us/repo/defect/ck/ant.html}. In this section, we present the instructions necessary to generate data to perform meta-tuning analysis on the Apache Ant dataset.
 
-## Simulation
+### Simulation
 Cd into the src directory.
 
 ```
@@ -48,7 +48,7 @@ The tool will perform configuration, tuning, and meta-tuning simulation and stor
 
 Apache Ant is a rather large project. Depending upon your system's resources, the duration of the simulation could be on the order of days. 
 
-## Interval Analysis
+### Interval Analysis
 Move the simulated data into a directory that's easier to access.
 
 ```
