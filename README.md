@@ -33,8 +33,6 @@ Pip will begin installing all necessary requirements. Once completed, you will b
 We have included a sample data directory in the repository (meta_tune/data). This directory includes data for 5 releases of the Apache-Ant open-source project. More information about the data can be found [here]{http://openscience.us/repo/defect/ck/ant.html}. 
 
 ### Simulation
-In this section, we present the instructions necessary to generate data to perform meta-tuning analysis on the Apache Ant dataset.
-
 Cd into the src directory.
 
 ```
