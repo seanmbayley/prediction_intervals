@@ -58,13 +58,13 @@ mv meta_tune/data/processed/ant/<today's date>/Standard_66-34/* meta_tune/data/p
 Perform the tuning benefit operation.
 
 ```
-python3 main.py intervals -m "core.PIManager -d ../data/processed/ant -ncs 90 95 99" -op "core.Tuning" -out ant_tuning
+python3 main.py intervals -m "core.PIManager -d ../data/processed/ant -ncs 90 95 99" -op "core.Tuning -out ant_tuning"
 ```
 
 Perform the meta-tuning benefit operation
 
 ```
-python3 main.py intervals -m "core.PIManager -d ../data/processed/ant -ncs 90 95 99" -op "core.MetaTuning -meta_splits 25 50 75" -out ant_meta
+python3 main.py intervals -m "core.PIManager -d ../data/processed/ant -ncs 90 95 99" -op "core.MetaTuning -meta_splits 25 50 75 -out ant_meta"
 ```
 
 The operations will create two CSV files (ant_tuning.csv and ant_meta.csv) in an automatically created directory: meta_tune/data/results.
